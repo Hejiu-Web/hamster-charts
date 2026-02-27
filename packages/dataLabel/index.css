@@ -1,0 +1,10 @@
+/* 数据标签组件 样式 */
+.h-data-label {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.h-data-label .h-data-label-num {}
+
+.h-data-label .h-data-label-text {}

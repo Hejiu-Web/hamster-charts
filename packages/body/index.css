@@ -1,0 +1,9 @@
+/* 身体组件-样式 */
+.h-body {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}

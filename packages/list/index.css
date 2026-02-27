@@ -1,0 +1,50 @@
+/* 列表组件 样式 */
+/* Webkit 内核浏览器 */
+::-webkit-scrollbar {
+  width: 0px;
+  /* 滚动条宽度 */
+}
+
+::-webkit-scrollbar-track {
+  background: #31313181;
+  /* 轨道背景颜色 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444444;
+  /* 滑块颜色 */
+  border-radius: 10px;
+  /* 圆角 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* 鼠标悬停时滑块颜色 */
+}
+
+.h-list {
+  /* border: 1px solid red; */
+  overflow: hidden;
+  position: relative;
+}
+
+.h-list .h-list-item {
+  border-bottom: 1px solid rgba(108, 128, 151, 0.5);
+  display: flex;
+  color: #fff;
+}
+
+.h-list .h-list-item .h-list-item-col {
+  /* border: 1px solid green; */
+  flex: 1;
+  color: #fff;
+}
+
+.h-list-item-header {
+  color: #fff;
+}
+
+.h-list-item-header .h-list-item-header-item {
+  /* border: 1px solid red; */
+  flex: 1;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "hamster-charts",
+  "private": false,
+  "version": "0.0.7",
+  "description": "HamsterCharts----新增众多组件并修复一些bug",
+  "type": "module",
+  "main": "./dist/hamster-charts.umd.cjs",
+  "module": "./dist/hamster-charts.js",
+  "exports": {
+    ".": {
+      "import": "./dist/hamster-charts.js",
+      "require": "./dist/hamster-charts.umd.cjs"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^12.2.0",
+    "echarts": "^5.6.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.5"
+  }
+}

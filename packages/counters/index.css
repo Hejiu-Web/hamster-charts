@@ -1,0 +1,7 @@
+/* -- 计数器组件 样式 -- */
+.h-counters {}
+
+.h-counters .h-counters-item {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
